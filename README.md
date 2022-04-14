@@ -1,4 +1,4 @@
-## Advanced CSS and Intro to JavaScript
+## Git for Web Development and Intro to JavaScript
 
 ## Objects
 
