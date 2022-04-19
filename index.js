@@ -125,10 +125,12 @@ Use the getReviewByIndex function below to do the following:
 */
 
 
-function getReviewByIndex(/*Your code here*/) {
-  /*Your code here*/
+function getReviewByIndex(array, num) {
+  return `${array[num].name} gave the restaurant a ${array[num].rating} star review, and their feedback was: ${array[num].feedback}`
 }
+ 
 
+console.log('getReviewByIndex(reviews,0);', getReviewByIndex(reviews,0))
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -226,3 +228,4 @@ module.exports = {
   getReviewByIndex,
   getLastReview,
 }
+
